@@ -1,0 +1,65 @@
+
+
+interface interface1{
+ String program;
+ int year;
+ double fee;
+	public interface1(String name,String address,String program,int year,double fee){
+		void function();
+		String getProgram();
+		void setProgram(String program);
+		int getYear();
+		void setYear(int year);
+		double getFee();
+		void setFee(double fee);
+		String toString();
+}
+
+interface interface2{
+ String school;
+ double pay;
+	public interface2(String name,String school,double pay){
+		String getSchool();
+		void setSchool(String school);
+		double getPay();
+		void setPay(double pay);
+		String toString();
+}
+			
+public abstract class Person implements interface1,interface2{
+ String name;
+ String address;
+	public Person(String name,String address){
+		public String getName(){
+			name=name;}
+		public String getAddress(){
+			return setAddress(address);}
+		public void setAddress(String address);{
+			address=address;}
+		public String toString(){
+				System.out.print("name="+name+",address="+address);
+					}}
+	public static void main(String []args){
+		interface1 y=new interface1()
+			{	public void function(){
+				public String getProgram(){
+					return setProgram(ECE);}
+				public void setProgram(String program){
+					program=program;}
+				public int getYear(){
+					return setYear(4);}
+				public void setYear(int year){
+					year=year;}
+				public double getFee(){
+					return setFee(10000);}
+				public void setFee(double fee){
+					fee=fee;}
+				Person(santosh,kurnool);
+				System.out.println(",program="+program+",year="+year",fee+"+fee);}
+			};
+			y.function();
+
+		interface2 s=new interface2()
+			{	public void func(){
+				public String 
+}
